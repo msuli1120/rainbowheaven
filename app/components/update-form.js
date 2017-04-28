@@ -7,7 +7,6 @@ export default Ember.Component.extend({
       this.set('updateForm',true);
     },
     confirmUpdate(question){
-      console.log(question);
       var params = {
         title: this.get('title'),
         description: this.get('description')
