@@ -1,10 +1,11 @@
 <li>
   <div class="panel panel-info">
     <div class="panel-heading">
-      <div class="asker">
+      <div class="answer">
         Answered by: {{answer.name}},
         From: {{answer.location}}  {{answer.time}}
       </div>
+      <button id="deletebutton" {{action 'deleteAnswer' answer}}><img id="deletelogo" src="https://superrepo.org/static/images/icons/original/xscript.delete.files.png.pagespeed.ic.TF1iwtyDDU.png"></button>
     </div>
     <div class="panel-body">
       Answer: {{answer.description}}

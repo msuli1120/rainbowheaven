@@ -10,5 +10,5 @@
 {{answer-form answer='answer' question=model.question}}
 
 {{#each model.question.answers as |answer|}}
-  {{show-answers answer=answer}}
+  {{show-answers answer=answer deleteAnswer='deleteAnswer'}}
 {{/each}}

@@ -68,3 +68,18 @@ a {
   color: white;
   text-decoration: underline;
 }
+
+img#deletelogo {
+  width: 5px;
+  height: 5px;
+}
+
+div.panel button#deletebutton {
+  float: right;
+  margin-top: -4%;
+  margin-right: -2%;
+}
+
+div.answers {
+  float: left;
+}
