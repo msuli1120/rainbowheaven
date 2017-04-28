@@ -1,0 +1,70 @@
+nav {
+  background: red;
+  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+nav div.container-fluid a.navbar-brand {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+nav div.collapse ul.nav a {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+nav div.collapse ul.nav li {
+  padding-left: 55px;
+}
+
+div.icons {
+  float: right;
+  margin-top: -3.6%;
+}
+
+div.icons img {
+  width: 30px;
+  height: 30px;
+}
+
+h2 {
+  font-family: 'League Script', cursive;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'League Script', cursive;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  margin-left: 30%;
+}
+
+p {
+  font-family: 'Lobster Two', cursive;
+  font-size: 18px;
+}
+
+div.asker {
+  float: right;
+  margin-top: -2%;
+}
+
+div.panel button {
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+{{#if updateForm}}
+<form>
+  <label for="title">Enter title: </label>
+  {{input value=title id="title" placeholder=question.title}}
+  <label for="description">Enter description: </label>
+  {{input value=description id="description" placeholder=question.description}}
+  <button {{action "confirmUpdate" question}}>Confirm</button>
+</form>
+{{else}}
+<button class="btn bg-info" {{action 'show'}}>Update</button>
+{{/if}}

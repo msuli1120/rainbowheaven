@@ -1,5 +1,31 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Rainbow Heaven</a>
+      </div>
 
-{{outlet}}
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <a href="https://wwww.youtube.com"><img src="https://www.niceyaslara.com/assets/img/sosyal/youtube.png"></a>
+        <a href="https://wwww.facebook.com"><img src="http://www.freeiconspng.com/uploads/facebook-logo-png-20.png"></a>
+        <a href="https://wwww.twitter.com"><img src="http://trainingcourses.com.pk/wp-content/uploads/2016/08/twitter-circle-icon-blue-logo-flat.png"></a>
+        <a href="https://www.instagram.com"><img src="http://www.scottfranksdesigns.co.uk/resources/instagram-circle-icon.png"></a>
+      </div>
+    </div>
+  </nav>
+
+  {{outlet}}
+
+  <footer>
+    Copyright (c) 2017 Copyright Xing Li All Rights Reserved.
+  </footer>
+
+</div>

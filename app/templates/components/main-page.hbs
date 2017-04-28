@@ -1,0 +1,14 @@
+<li>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4>Title: {{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</h4>
+      <div class="asker">
+        Asked by: {{question.name}},
+        From: {{question.location}}  {{question.time}}
+      </div>
+    </div>
+    <div class="panel-body">
+      Question: {{question.description}}
+    </div>
+  </div>
+</li>

@@ -1,0 +1,23 @@
+{{#if questionForm}}
+<form>
+  <div class="form-group">
+    <label for="name">Enter your name:</label>
+    {{input value=name id="name"}}
+  </div>
+  <div class="form-group">
+    <label for="location">Enter your location:</label>
+    {{input value=location id="location"}}
+  </div>
+  <div class="form-group">
+    <label for="title">Enter your title:</label>
+    {{input value=title id="title"}}
+  </div>
+  <div class="form-group">
+    <label for="description">Enter your description:</label>
+    {{textarea value=description id="description"}}
+  </div>
+  <button {{action 'ask'}}>Submit</button>
+</form>
+{{else}}
+  <button {{action 'showForm'}}>Ask A Question</button>
+{{/if}}

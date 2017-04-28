@@ -17,6 +17,15 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyDaR-vTx_epSM7Htc3LpOZ-Lt7fh0vSPSo",
+     authDomain: "rainbowheaven-17ba3.firebaseapp.com",
+     databaseURL: "https://rainbowheaven-17ba3.firebaseio.com",
+     projectId: "rainbowheaven-17ba3",
+     storageBucket: "rainbowheaven-17ba3.appspot.com",
+     messagingSenderId: "543995268203"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

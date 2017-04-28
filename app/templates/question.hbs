@@ -1,0 +1,14 @@
+<h2>Question About: {{model.question.title}} <br>
+  Posted by {{model.question.name}} from {{model.question.location}}</h2>
+<p>Question Description: {{model.question.description}}</p><br>
+<p>Posted on {{model.question.time}}</p>
+
+<button class="btn bg-warning" {{action 'deleteQuestion' model.question}}>Delete</button>
+
+{{update-form confirmUpdate='confirmUpdate' question=model.question}}
+
+{{answer-form answer='answer' question=model.question}}
+
+{{#each model.question.answers as |answer|}}
+  {{show-answers answer=answer}}
+{{/each}}
