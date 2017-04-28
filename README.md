@@ -2,6 +2,25 @@
 
 A Q&A app that allows people asking any questions.
 
+## Planning
+
+1. Configuration/dependencies
+  * Create basic frame using ember new.
+  * Install ember-bootstrap for later use.
+
+2. Specs
+  * 1: genterate 4 routes that would be used later
+  * 2: index->main-page;
+            question->update-form, answer-form, show-answers;
+            contact;
+            about;
+  * 3: basic form with save functions
+  * 4: update function
+  * 5: delete function
+  * 6: database relation
+  * 7: delete relation database
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
