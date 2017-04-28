@@ -1,6 +1,5 @@
 {{#if answerForm}}
   <form>
-    {{question}}
     <div class="form-group">
       <label for="answerName">Enter name:</label>
       {{input value=answerName id="answerName"}}
@@ -13,8 +12,8 @@
       <label for="answerDescription">Enter description:</label>
       {{textarea value=answerDescription id="answerDescription"}}
     </div>
-    <button {{action 'answer'}}>Answer</button>
+    <button class="btn bg-info" {{action 'answer'}}>Answer</button>
   </form>
 {{else}}
-  <button {{action 'iKnow'}}>I know</button>
+  <button class="btn bg-info" {{action 'iKnow'}}>I know</button>
 {{/if}}
