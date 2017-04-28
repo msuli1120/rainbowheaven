@@ -4,7 +4,9 @@
 
 <h3>All Questions:</h3>
 <div class="questions">
-  {{#each model as |question|}}
-   {{main-page question=question confirmUpdate="confirmUpdate"}}
-  {{/each}}
+  <ol>
+    {{#each model as |question|}}
+     {{main-page question=question confirmUpdate="confirmUpdate"}}
+    {{/each}}
+  </ol>
 </div>
